@@ -7,7 +7,7 @@
 int InputInt(string message)
 {
     System.Console.WriteLine($"{message}: ");
-    return int.Parse(Console.ReadLine());
+    return int.Parse(Console.ReadLine()!);
 }
 
 int[] CreateArray(int len)
