@@ -43,7 +43,7 @@ int CountEvenNumbers(int[] array)
     return count;
 }
 
-int len = InputInt("Введите длину массива.");
+int len = InputInt("Введите длину массива");
 int[] array = CreateArray(len);
 PrintArray(array);
 System.Console.WriteLine($"Количество чётных чисел в массиве: {CountEvenNumbers(array)}");
